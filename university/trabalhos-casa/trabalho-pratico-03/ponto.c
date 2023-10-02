@@ -21,5 +21,7 @@ float calcularAreaTriangulo(Ponto a, Ponto b, Ponto c) {
         determinante *= -1;
     }
 
+    printf("Determinante: %f\n", determinante * 0.5);
+
     return 0.5 * determinante;
 }
